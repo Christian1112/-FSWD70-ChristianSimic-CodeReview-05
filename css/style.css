@@ -1,0 +1,148 @@
+/* main styling for body and background */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #000;
+	background-image: url("../img/background.png");
+	background-repeat: repeat-y;
+	background-position: top center;
+}
+.container{
+	background-color: rgb(23,30,36, .9);
+	margin: 0 auto;
+	padding: 0;
+}
+/* styling for header */
+.header{
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	padding: 25px;
+	margin: 0;
+}
+.header h1{
+	font-size: 2.7em;
+	margin: 0;
+	padding: 0;
+}
+/* styling for the navbar in addition to the original bootstrap styling */
+.navbar{
+	margin: 0;
+	background-color: #434343;
+}
+.navl > a{
+	color: #dcdde1!important;
+}
+.navl > a:hover{
+	color: #fff!important;
+}
+/* styling for the heading below the navbar */
+.heading{
+	text-align: center;
+	color: #fff;
+	padding: 25px;
+	margin: 0;
+}
+.heading h1{
+	margin: 0;
+	padding: 0;
+	font-size: 2.2em;
+}
+/* styling for the main content where the movies are */
+#allmovies{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/* styling for each individual movie div */
+.movie{
+	background-color: #000;
+	border-radius: 25px;
+	color: #fff;
+	margin: 25px;
+}
+/* styling for the movie cover*/
+.movieimg{
+	padding: 25px 0 25px 0;
+}
+.movieimg img{
+	border-radius: 15px;
+	width: 100%;
+	height: auto;
+	transition: .3s ease-in-out;
+}
+.movieimg img:hover{
+	transform: scale(1.1, 1.1);
+}
+/* styling for the description */
+.description{
+	padding: 25px 15px 0px 15px;
+}
+.description h3{
+	margin: 0;
+	padding: 0;
+}
+/* styling for the area that shows the likes */
+.likes{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	float: right;
+	background-color: #009432;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 50%;
+	outline: none;
+	cursor: default;
+	width: 50px;
+	height: 50px;
+}
+/* styling for the like button */
+.btn{
+	position: absolute;
+	right: 55px;
+	bottom: 17px;
+	float: right;
+	width: 100px;
+	color: #009432;
+	font-size: 1.3em;
+	background: none;
+	outline: none!important;
+}
+.btn:hover i{
+	animation: wobble 1.5s linear infinite;
+}
+@keyframes wobble{
+	50%{transform: scale(1.2, 1.2)}
+	100%{transform: scale(1.0, 1.0)}
+}
+.btn i{
+	font-size: 1.5em;
+	padding-left: 5px;
+}
+.btn:hover{
+	color: #fff;
+}
+/* styling for the footer */
+.footer{
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+}
+.footerimg{
+	margin: 20px auto;
+}
+.footerimg img{
+	width: 300px;
+	height: auto;
+}
+.footertext{
+	margin: 0 auto;
+	color: white;
+	font-size: 1.3em;
+}

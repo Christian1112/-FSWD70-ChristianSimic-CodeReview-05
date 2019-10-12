@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fifth CodeReview</title>
+    <!-- links for all important sites -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!-- container for the full contet -->
+    <div class="container">
+    	<!-- header with title -->
+    	<header class="header">
+    		<h1 class="lead">Movie Factory</h1>
+    	</header>
+    	<!-- navbar with dropdown menue from bootstrap -->
+    	<nav class="navbar navbar-inverse">
+    	    <ul class="nav navbar-nav">
+    	      <li class="navl"><a href="#">Home</a></li>
+    	      <li class="dropdown navl"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genre <span class="caret"></span></a>
+    	        <ul class="dropdown-menu">
+    	          <li><a id="genreallmovies" href="#">All movies</a></li>
+    	          <li><a id="genreaction" href="#">Action</a></li>
+    	          <li><a id="genrecomedy" href="#">Comedy</a></li>
+    	          <li><a id="genredrama" href="#">Drama</a></li>
+    	          <li><a id="genrehorror" href="#">Horror</a></li>
+    	        </ul>
+    	      </li>
+    	      <li id="sortlikes" class="navl"><a href="#">Sort by likes</a></li>
+    	    </ul>
+    	</nav>
+    	<!-- small heading below navbar -->
+    	<div class="heading">
+    		<h1>Movies</h1>
+    	</div>
+    	<!-- this is where the data from the json gets created -->
+        <div class="col-lg-12">
+            <div id="allmovies" class="row">
+            </div>
+        </div>
+        <!-- footer on the bottom of the page -->
+        <footer class="footer">
+			<div class ="footerimg">
+				<img src="img/logo.png">
+			</div>
+			<div class="footertext">
+				<p>Christian Simic - CodeFactory 2019</p>	
+			</div>	
+		</footer>
+    </div>
+    <!-- links for json and script -->
+    <script src="json/movies.json"></script>
+    <script src="script/myscript.js"></script>
+</body>
+
+</html>

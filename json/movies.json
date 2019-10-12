@@ -1,0 +1,51 @@
+//array with the movies
+var movies = [
+		{
+		 "title":"Isn`t it Romantic (2011)", 
+		 "desc":"Lorem ipsum dolor sit amet,  magni  maxime iure itaque quo nisi quas, quia repudiandae nulla aliquam voluptates! Nemo soluta eveniet ducimus minima, voluptates beatae sint similique architecto fuga eligendi blanditiis earum!.",
+		 "image":"img/romantic.jpg",
+		 "genre":"comedy"
+		},
+		{
+		 "title":"What Men want (2013)", 
+		 "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolores consequatur perspiciatis necessitatibus, a alias rerum explicabo molestias? In, dicta dolorum voluptas distinctio reiciendis nostrum. Nisi quisquam laborum, sint facere!",
+		 "image":"img/want.jpg",
+		 "genre":"comedy"
+		},
+		{
+		 "title":"Dora and the lost city of gold (2014)", 
+		 "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni eum labore delectus tempora. Perspiciatis ipsum eveniet impedit saepe, mollitia error accusamus ratione officiis rerum.",
+		 "image":"img/avengers.jpg",
+		 "genre":"action"
+		},
+		{
+		 "title":"John Wick (2015)", 
+		 "desc":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem architecto voluptatum neque dolor nostrum illo laboriosam, atque dicta! Iste cum quis atque, facere aliquid, aperiam iusto!",
+		 "image":"img/John.jpg",
+		 "genre":"action"
+		},
+		{
+		 "title":"Fifty Shades Of Grey (2015)", 
+		 "desc":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. A natus quisquam dolorum facere inventore labore, delectus nobis non tempora modi, dolor corrupti in sint ad explicabo odio.",
+		 "image":"img/grey.jpg",
+		 "genre":"drama"
+		},
+		{
+		 "title":"The Lucky One (2012)", 
+		 "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe porro laborum, numquam accusamus, architecto minus amet dolorum quia in, repellendus quo, nostrum voluptate placeat atque incidunt voluptatem..",
+		 "image":"img/luckyone.jpg",
+		 "genre":"drama"
+		},
+		{
+		 "title":"The Conjuring (2013)", 
+		 "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus modi veritatis consectetur laboriosam commodi, soluta minima unde. Sequi saepe nostrum, possimus id vel rem velit deserunt omnis quia!.",
+		 "image":"img/conjuring.jpg",
+		 "genre":"horror"
+		},
+		{
+		 "title":"Drag Me To Hell (2009)", 
+		 "desc":"Lorem ipsum dolor sit amet, .  adipisci, assumenda officia quis repellendus animi! Quisquam alias, deserunt repellat, officiis dolorum atque..",
+		 "image":"img/dragmetohell.jpg",
+		 "genre":"horror"
+		}
+	];
